@@ -1,0 +1,26 @@
+{
+  "name": "audio-purger",
+  "version": "1.0.0",
+  "description": "Service to purge audio files from S3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ftlabs/audio-purger.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ftlabs/audio-purger/issues"
+  },
+  "homepage": "https://github.com/ftlabs/audio-purger#readme",
+  "dependencies": {
+    "aws-sdk": "^2.92.0",
+    "debug": "^2.6.8",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "node-fetch": "^1.7.1"
+  }
+}
